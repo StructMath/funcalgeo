@@ -1,0 +1,19 @@
+\section{Presheaves}
+
+\subsection{A generalization of Topological Space}
+We start by a generalization of the notion Topological Space. \red{Why?}
+
+A simple characteristics of a topology is its \emph{basis}. Given a set of bases $(B, \subseteq)$, we can define an \emph{open} of a topology as the set of all bases it contains. So any open $U$ can be defined as a monotone characteristic function
+\[ U : (B, \subseteq)^{-1} \to (0 \le 1) \]
+which maps any basis inside $U$ to $1$.
+
+There are two directions to generalize this characterisation in a natural way. First, we know \emph{categories} as a generalization of the posets in which objects can be related in \emph{more that one way}. Second, we can extend the \emph{truth-values} of the characteristic function from simple two values of $0$ and $1$ to be arbitrary sets. So we take a \emph{presheaf}
+\[ F : \C^{op} \to \Set\]
+as a \emph{generalized space}.
+
+\subsection{Examples of Presheaves}
+\begin{exam}
+  Take $\C$ to be the category of all open subsets of $\R^n$ with all contiuous maps over it and fix a topological space $X$. Then we can assign to any space $U$ the set of all continuous maps from $U$ to $X$. This assignment defines a functor
+  \[ F_X(U) : \Top^{op} \to \Set \]
+  which is a presheaf.
+\end{exam}
