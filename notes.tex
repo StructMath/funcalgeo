@@ -1,0 +1,10 @@
+\documentclass[]{article}
+\input{preamble}
+\begin{document}
+
+\foreach \c in {1,2,...,\SesNum}{%
+  \IfFileExists{sessions/\c.tex} {%
+    \part*{Session \c} \input{sessions/\c.tex}%
+  }%
+}%
+\end{document}
