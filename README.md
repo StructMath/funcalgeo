@@ -3,4 +3,4 @@ Upload the notes for each session as a separate `.tex` file named by the number 
 
 
 
-  - [Latest Build](https://github.com/StructMath/cat/funcalgeo/releases/download/build/notes.pdf)
+  - [Latest Build](https://github.com/StructMath/funcalgeo/releases/download/build/notes.pdf)
